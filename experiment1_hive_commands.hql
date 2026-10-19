@@ -6,7 +6,7 @@
 --    OR, when HiveServer2 is running:
 --      beeline -u 'jdbc:hive2://localhost:10000/default' -f experiment1_hive_commands.hql
 -- 3. This script creates a database/table, shows and describes them, then drops the table.
--- 4. It keeps the database after execution. To remove the database too, uncomment the final line.
+-- 4. It keeps the database after execution. To remove the database too, uncomment the final line. or nano install_hive_practical.sh
 
 -- CREATE: create a database if it does not already exist.
 CREATE DATABASE IF NOT EXISTS bda_practical;
